@@ -36,5 +36,5 @@ java -cp credit-suisse-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.troy.dummy.J
 ### Default
 1. Hsqldb - Database name 'demo' will be create in the present directoy under 'DB" folder.
 2. log4j - configuration file is set to console appender with log level 'info'. 
-3. log file - defalu log file is picked from current directory name 'logfile.txt'
+3. Input log - defalu log file is picked from current directory name 'logfile.txt'
 
