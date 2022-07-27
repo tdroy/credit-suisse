@@ -25,10 +25,10 @@
 	        </executions>
 	        <configuration>
 	          <archive>
-                <manifest>
-                   <mainClass>com.troy.Run</mainClass>
-                </manifest>
-              </archive>
+                    <manifest>
+                   	<mainClass>com.troy.Run</mainClass>
+                    </manifest>
+              	  </archive>
 	          <descriptorRefs>
 	            <descriptorRef>jar-with-dependencies</descriptorRef>
 	          </descriptorRefs>
