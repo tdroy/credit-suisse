@@ -17,9 +17,9 @@ The utility can be build using maven.
 5. This will create executable jar file 'credit-suisse-0.0.1-SNAPSHOT-jar-with-dependencies.jar' inside target/ folder. Include all dependencies.
 6. OPTIONAL. In case need to change the log file name at test phase, then edit the pom to pass the file name as arrument.
 ``` xml
-	  <arguments>
-	     <argument>logfile.txt</argument>
-	  </arguments>
+	<arguments>
+	   <argument>logfile.txt</argument>
+	</arguments>
 ```
 
 Run the utility standalone.
