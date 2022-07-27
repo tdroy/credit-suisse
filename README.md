@@ -27,5 +27,9 @@ Run the utility standalone.
 java -jar credit-suisse-0.0.1-SNAPSHOT-jar-with-dependencies.jar <Path to log file>
 ```
 
-### 
+### Utility for dummy log generation
+It is poosible to generate dummy log file. B
+```
+java -cp credit-suisse-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.troy.dummy.JsonLogGenerator <number of events>
+```
 
