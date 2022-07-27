@@ -35,7 +35,7 @@ public class JsonLogGenerator {
 		
 		try 
 		{
-			FileWriter file = new FileWriter("output.json");
+			FileWriter file = new FileWriter("logfile.txt");
 			
 			while (i <= max) {
 
