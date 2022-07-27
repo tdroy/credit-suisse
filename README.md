@@ -5,7 +5,7 @@ A demo project for log processing (multi threaded).
 1. Apache commons-io
 2. Apache log4j
 3. Google gson
-4. Hyper SQLDB
+4. Hyper SQLDB (Embedded)
 5. Apache maven (build)
 
 ### Usage
@@ -32,4 +32,9 @@ It is poosible to generate dummy log file. B
 ```
 java -cp credit-suisse-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.troy.dummy.JsonLogGenerator <number of events>
 ```
+
+### Default
+Hsqldb - Database name 'demo' will be create in the present directoy under 'DB" folder.
+log4j - configuration file is set to console appender with log level 'info'. 
+log file - defalu log file is picked from current directory name 'logfile.txt'
 
