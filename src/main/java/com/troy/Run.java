@@ -19,13 +19,13 @@ public class Run {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
-		logger.info("******************************************");
-		logger.info("****  Credit Suisse Demo Application  ****");
-		logger.info("****    Reading log event to HSQLDB   ****");
-		logger.info("****        	By Tanmoy Roy.         ****");
-		logger.info("******************************************");
+	logger.info("******************************************");
+	logger.info("****  Credit Suisse Demo Application  ****");
+	logger.info("****    Reading log event to HSQLDB   ****");
+	logger.info("****          By Tanmoy Roy.          ****");
+	logger.info("******************************************");
 		
-		Run run = new Run();
+	Run run = new Run();
         long start = System.currentTimeMillis();
 
         //Default log file name & path
