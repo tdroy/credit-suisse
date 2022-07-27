@@ -12,7 +12,6 @@ import org.apache.logging.log4j.Logger;
 import com.troy.Event;
 import com.troy.hsqldb.*;
 
-
 public class Run {
 	
 	final static Logger logger =  LogManager.getLogger(Run.class);
