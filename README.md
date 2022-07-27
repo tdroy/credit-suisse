@@ -57,7 +57,7 @@ Log level - info
 Log processing completed in : 0 secs
 ```
 
-Log level -debug
+Log level -debug (at end it will display the DB table 'select * from event' table)
 ```
 2022-07-27 09:39:27 INFO  Run:22 com.troy.Run.main() - ******************************************
 2022-07-27 09:39:27 INFO  Run:23 com.troy.Run.main() - ****  Credit Suisse Demo Application  ****
@@ -79,13 +79,10 @@ Log level -debug
 2022-07-27 09:39:27 DEBUG LogReader:50 Thread-1 - ID already present : str10
 2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str1 state : STARTED type : App_logs host : x.y.z.o timestamp : 6
 2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str2 state : STARTED type : App_logs host : x.y.z.o timestamp : 3
-2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str3 state : STARTED type : App_logs host : x.y.z.o timestamp : 3
-2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str4 state : STARTED type : App_logs host : x.y.z.o timestamp : 3
+...
 2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str5 state : FINISHED type : null host : null timestamp : 5
 2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str6 state : STARTED type : App_logs host : x.y.z.o timestamp : 4
-2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str7 state : STARTED type : App_logs host : x.y.z.o timestamp : 3
-2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str8 state : STARTED type : App_logs host : x.y.z.o timestamp : 3
-2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str9 state : STARTED type : App_logs host : x.y.z.o timestamp : 3
+...
 2022-07-27 09:39:27 DEBUG LogReader:66 Thread-1 - id : str10 state : FINISHED type : null host : null timestamp : 5
 2022-07-27 09:39:27 INFO  LogReader:68 Thread-1 - Log read completed. Total events counts : 10
 2022-07-27 09:39:28 INFO  ENGINE:-2 Thread-2 - Checkpoint start
