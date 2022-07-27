@@ -48,24 +48,12 @@
 	            <configuration>
 	              <mainClass>com.troy.Run</mainClass>
 	              <arguments>
-	                <argument>output.json</argument>
+	                <argument>logfile.txt</argument>
 	              </arguments>
 	            </configuration>
 	          </execution>
 	        </executions>
 	      </plugin>
-                 
-          <!-- plugin>
-	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-jar-plugin</artifactId>
-	            <configuration>
-	                <archive>
-	                    <manifest>
-	                        <mainClass>com.troy.Run</mainClass>
-	                    </manifest>
-	                </archive>
-	            </configuration>
-        </plugin-->
       </plugins>
   </build>
   
